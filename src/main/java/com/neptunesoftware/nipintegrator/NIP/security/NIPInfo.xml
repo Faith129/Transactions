@@ -1,0 +1,11 @@
+<!DOCTYPE NIPInfo>
+<NIPInfo>
+	<Username>19iqcu/KI3vkJ8+uPQnA9Q==</Username>
+	<Password>stkSf+Lb/uB/2kjwBql4eQ==</Password>
+	<BankCode>090436</BankCode>
+	<PublicKeyName>nibss_public.key</PublicKeyName>
+	<TransferLimit>1000000000</TransferLimit>
+	<WsdlUrl>http://41.58.130.134:8086/NIPWS/NIPInterface?wsdl</WsdlUrl>
+	<TSQWsdl>http://196.6.103.233:88/NIPWS/NIPTSQInterface?wsdl</TSQWsdl>
+</NIPInfo>
+

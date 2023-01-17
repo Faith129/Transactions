@@ -1,0 +1,8 @@
+package com.neptunesoftware.nipintegrator.inward.services;
+
+import com.neptunesoftware.nipintegrator.inward.model.fundtransferadvicedirectcredit.FundTransferAdviceDirectCreditRequest;
+import com.neptunesoftware.nipintegrator.inward.model.fundtransferadvicedirectcredit.FundTransferAdviceDirectCreditResponse;
+
+public interface FTAdviceDirectCreditService {
+    FundTransferAdviceDirectCreditResponse doFundTransferAdviceDirectCredit(FundTransferAdviceDirectCreditRequest request);
+}

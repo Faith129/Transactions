@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.neptunesoftware.com/nipintegrator/outward/api/nameEnquiryOutward"
+>
+    <xs:element name="NameEnquiryRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sessionId" type="xs:string"/>
+                <xs:element name="destinationInstitutionCode" type="xs:string"/>
+                <xs:element name="channelCode" type="xs:int"/>
+                <xs:element name="accountNumber" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="NameEnquiryResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="accountName" type="xs:string"/>
+                <xs:element name="bankVerificationNumber" type="xs:string"/>
+                <xs:element name="kycLevel" type="xs:string"/>
+                <xs:element name="responseCode" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

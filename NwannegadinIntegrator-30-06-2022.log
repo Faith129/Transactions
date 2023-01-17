@@ -1,0 +1,93 @@
+30-Jun-2022 12:10:02:0002
+To save records
+
+30-Jun-2022 12:10:02:0002
+Record to be saved: 
+com.neptunesoftware.nipintegrator.inward.model.fundtransferdirectcredit.FundTransferDirectCreditResponse@b2068de
+
+30-Jun-2022 12:10:02:0002
+Record to be saved: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fundTransferDirectCreditResponse>
+    <SessionId>3483759305</SessionId>
+    <NameEnquiryRef>For Enquiry</NameEnquiryRef>
+    <DestinationInstitutionCode>347385</DestinationInstitutionCode>
+    <ChannelCode>34839</ChannelCode>
+    <BeneficiaryAccountName>New Test</BeneficiaryAccountName>
+    <BeneficiaryAccountNumber>0013000004</BeneficiaryAccountNumber>
+    <BeneficiaryBankVerificationNumber>65849584</BeneficiaryBankVerificationNumber>
+    <BeneficiaryKYCLevel>23</BeneficiaryKYCLevel>
+    <OriginatorAccountName>originator test</OriginatorAccountName>
+    <OriginatorAccountNumber>0013000005</OriginatorAccountNumber>
+    <OriginatorBankVerificationNumber>89584954</OriginatorBankVerificationNumber>
+    <OriginatorKYCLevel>25</OriginatorKYCLevel>
+    <TransactionLocation>6789</TransactionLocation>
+    <Narration>Checking things out</Narration>
+    <PaymentReference>43859395</PaymentReference>
+    <Amount>10000</Amount>
+    <ResponseCode>00</ResponseCode>
+</fundTransferDirectCreditResponse>
+
+
+30-Jun-2022 12:18:50:0050
+To save records
+
+30-Jun-2022 12:18:50:0050
+Record to be saved: 
+com.neptunesoftware.nipintegrator.inward.model.fundtransferdirectcredit.FundTransferDirectCreditResponse@568b74f8
+
+30-Jun-2022 12:18:50:0050
+Record to be saved: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fundTransferDirectCreditResponse>
+    <SessionId>3483759305</SessionId>
+    <NameEnquiryRef>For Enquiry</NameEnquiryRef>
+    <DestinationInstitutionCode>347385</DestinationInstitutionCode>
+    <ChannelCode>34839</ChannelCode>
+    <BeneficiaryAccountName>New Test</BeneficiaryAccountName>
+    <BeneficiaryAccountNumber>0013000004</BeneficiaryAccountNumber>
+    <BeneficiaryBankVerificationNumber>65849584</BeneficiaryBankVerificationNumber>
+    <BeneficiaryKYCLevel>23</BeneficiaryKYCLevel>
+    <OriginatorAccountName>originator test</OriginatorAccountName>
+    <OriginatorAccountNumber>0011100003</OriginatorAccountNumber>
+    <OriginatorBankVerificationNumber>89584954</OriginatorBankVerificationNumber>
+    <OriginatorKYCLevel>25</OriginatorKYCLevel>
+    <TransactionLocation>6789</TransactionLocation>
+    <Narration>Checking things out</Narration>
+    <PaymentReference>43859395</PaymentReference>
+    <Amount>50000</Amount>
+    <ResponseCode>00</ResponseCode>
+</fundTransferDirectCreditResponse>
+
+
+30-Jun-2022 12:19:47:0047
+To save records
+
+30-Jun-2022 12:19:47:0047
+Record to be saved: 
+com.neptunesoftware.nipintegrator.inward.model.fundtransferdirectcredit.FundTransferDirectCreditResponse@538b5817
+
+30-Jun-2022 12:19:47:0047
+Record to be saved: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fundTransferDirectCreditResponse>
+    <SessionId>3483759305</SessionId>
+    <NameEnquiryRef>For Enquiry</NameEnquiryRef>
+    <DestinationInstitutionCode>347385</DestinationInstitutionCode>
+    <ChannelCode>34839</ChannelCode>
+    <BeneficiaryAccountName>New Test</BeneficiaryAccountName>
+    <BeneficiaryAccountNumber>0013000004</BeneficiaryAccountNumber>
+    <BeneficiaryBankVerificationNumber>65849584</BeneficiaryBankVerificationNumber>
+    <BeneficiaryKYCLevel>23</BeneficiaryKYCLevel>
+    <OriginatorAccountName>originator test</OriginatorAccountName>
+    <OriginatorAccountNumber>0011100003</OriginatorAccountNumber>
+    <OriginatorBankVerificationNumber>89584954</OriginatorBankVerificationNumber>
+    <OriginatorKYCLevel>25</OriginatorKYCLevel>
+    <TransactionLocation>6789</TransactionLocation>
+    <Narration>Checking things out</Narration>
+    <PaymentReference>43859395</PaymentReference>
+    <Amount>200000</Amount>
+    <ResponseCode>00</ResponseCode>
+</fundTransferDirectCreditResponse>
+
+

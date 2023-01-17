@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.neptunesoftware.com/nipintegrator/outward/api/fundTransferDirectCreditOutward"
+>
+    <xs:element name="FundTransferDirectCreditRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sessionId" type="xs:string"/>
+                <xs:element name="destinationInstitutionCode" type="xs:string"/>
+                <xs:element name="nameEnquiryRef" type="xs:string"/>
+                <xs:element name="channelCode" type="xs:int"/>
+                <xs:element name="beneficiaryAccountName" type="xs:string"/>
+                <xs:element name="beneficiaryAccountNumber" type="xs:string"/>
+                <xs:element name="beneficiaryBankVerificationNumber" type="xs:string"/>
+                <xs:element name="beneficiaryKYCLevel" type="xs:int"/>
+                <xs:element name="originatorAccountName" type="xs:string"/>
+                <xs:element name="originatorAccountNumber" type="xs:string"/>
+                <xs:element name="originatorBankVerificationNumber" type="xs:string"/>
+                <xs:element name="originatorKYCLevel" type="xs:int"/>
+                <xs:element name="transactionLocation" type="xs:string"/>
+                <xs:element name="narration" type="xs:string"/>
+                <xs:element name="paymentReference" type="xs:string"/>
+                <xs:element name="amount" type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="FundTransferDirectCreditResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sessionId" type="xs:string"/>
+                <xs:element name="destinationInstitutionCode" type="xs:string"/>
+                <xs:element name="nameEnquiryRef" type="xs:string"/>
+                <xs:element name="channelCode" type="xs:int"/>
+                <xs:element name="beneficiaryAccountName" type="xs:string"/>
+                <xs:element name="beneficiaryAccountNumber" type="xs:string"/>
+                <xs:element name="beneficiaryBankVerificationNumber" type="xs:string"/>
+                <xs:element name="beneficiaryKYCLevel" type="xs:int"/>
+                <xs:element name="originatorAccountName" type="xs:string"/>
+                <xs:element name="originatorAccountNumber" type="xs:string"/>
+                <xs:element name="originatorBankVerificationNumber" type="xs:string"/>
+                <xs:element name="originatorKYCLevel" type="xs:int"/>
+                <xs:element name="transactionLocation" type="xs:string"/>
+                <xs:element name="narration" type="xs:string"/>
+                <xs:element name="paymentReference" type="xs:string"/>
+                <xs:element name="amount" type="xs:decimal"/>
+                <xs:element name="responseCode" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
